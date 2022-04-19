@@ -85,5 +85,8 @@ begin
 end architecture Structure;
 ```
 
------------------------
-[return to content](https://github.com/Notes-MD/VHDL#vhdl-cheatsheet)
+`entity work.Counter.Behaviroal` indicates what module we're instantiating.  
+\- `work`       : look in this <u>library</u>; default is called work. (similar to working dir)  
+\- `Counter`    : defines what entity to use   
+\- `Behavioral` : defines the architech
+

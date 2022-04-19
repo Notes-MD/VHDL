@@ -76,5 +76,8 @@ signal vec   : bit_vector(0 to 3) := "0011";
 `:=` is how initial value is defined (for simulation).<br>
 in `bit_vector(0 to 3) := "0011";` 0(most significant; 0th value) 0(1st value) 1(2nd value) 1(least significant; 3rd value). Alternatively, `bit_vector(3 downto 0) := "1100";` is more common method for same operation.
 
+
+## Instantiation
+
 -----------------------
 [return to content](https://github.com/Notes-MD/VHDL#vhdl-cheatsheet)
