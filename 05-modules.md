@@ -78,6 +78,13 @@ in `bit_vector(0 to 3) := "0011";` 0(most significant; 0th value) 0(1st value) 1
 
 
 ## Instantiation
+to instantiate a module (similar to callign a function), a special syntax is used, for example:
+
+`entity work.Counter.Behaviroal` indicates what module we're instantiating.  
+\- `work`       : look in this <u>library</u>; default is called work. (similar to working dir)  
+\- `Counter`    : defines what entity to use   
+\- `Behavioral` : defines the architech
+
 
 -----------------------
 [return to content](https://github.com/Notes-MD/VHDL#vhdl-cheatsheet)
